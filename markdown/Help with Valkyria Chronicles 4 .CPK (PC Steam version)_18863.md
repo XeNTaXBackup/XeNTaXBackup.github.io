@@ -20,7 +20,7 @@ There's same-ish thing with CPK header and TOC header starting off with a lot of
 Could also be a different compression algorithm, file size packed by CriPakTools is slightly smaller.
 
 Oh, the file in question
-{{scrapped as promised below}}
+{% raw %}{{scrapped as promised below}}{% endraw %}
 There's of course a lot more, but this one is the only small one (68 MB, the one I'm more interested in is 23 GB of base game data). I'll take it down after it's no longer necessary.
 ## Post #2
 - Username: Giza
