@@ -20824,7 +20824,7 @@ c(")(")
 Thanks alot lsc.
 
 But I don't understand about index buffer yet.
-What I only know about TMCL is vertex buffer that can be found by {{44,44},{32323,45453}..} something like that.
+{% raw %}What I only know about TMCL is vertex buffer that can be found by {{44,44},{32323,45453}..} something like that.{% endraw %}
 Can you tell me what index buffer means and ...how can I find it in TMCL?
 
 (And I'm always saving your notes, so be free to erase it or make it bunny, whatever.)
