@@ -7428,6 +7428,7 @@ the island patch is useng some files not from the doa5_files_table, or maybe it'
 
 some names to add to the end of the "doa5realnames.ini":
 
+{% raw %}
 > NC6_8LA]{71626]O5G8{51KB = stg_isl.tmc
 >
 > B15_7K9]{71687]RO6GA{51KD = stg_isl.tmcl
@@ -7439,6 +7440,7 @@ some names to add to the end of the "doa5realnames.ini":
 > 2S141K_E1FG1[]N18A1H153{ = ISLAND2.TMC
 >
 > BS151K_51FG1[]BN19B1H163{ = ISLAND2.TMCL
+{% endraw %}
 
 note: you can use the "simple doa5 unpacker" and it's files(source code, correct names for files...) as you wish, i would be happy if they will help you in any way(you can put even your name in it). and it's true for all my works - cheers...
 ## Post #415
