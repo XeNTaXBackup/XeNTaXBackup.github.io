@@ -128,6 +128,7 @@ the r6t contains the format count and two ints for width and length, I don't hav
 below is a format break down in a binary template for the Hex editor, 010 Editor
 
 ```
+{% raw %}
 //--- 010 Editor v13.0.2 Binary Template
 //
 //      File: Ridge Racer 6, RPT Parser (Xbox360)
@@ -192,7 +193,7 @@ struct fmtRPT {
 // Initialize File Structure
 BigEndian();
 fmtRPT rpt;
-
+{% endraw %}
 ```
 ## Post #10
 - Username: UB833
