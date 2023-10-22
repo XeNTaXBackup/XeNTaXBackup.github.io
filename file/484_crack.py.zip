@@ -1,0 +1,48 @@
+from sys import argv, exit
+
+def str2int(string):
+	n=0
+	for x in string:
+		n+=ord(x)
+	return n
+
+def decode(string, lsh, rsh, m):
+	s = ''
+	for i in range(0, len(string)/2, 2):
+		try:
+			s += str(unichr((((ord(string[i:i+1])^mask)<<j)>>i)))
+		except (ValueError,UnicodeEncodeError), ex:
+			s='None'
+			break
+		else:
+			for c in s:
+				if (ord(c) < 46) or (ord(c) > 122):
+					s='None'
+					break 
+	return s
+			
+
+infile = open(argv[1])
+
+infile.seek(-9, 2)
+ext = infile.read()
+dot = ext[0:2]
+
+infile.close()
+
+possibles = 0
+
+for i in range (0, 8):
+	output = str2int(dot)<<i
+
+	for j in range(0, 8):
+		output = output>>j
+
+		mask = output^ord(unicode('.'))
+
+		decrypted = decode(ext, i, j, mask)
+		if decrypted != 'None':
+			possibles+=1
+			print "<<"+str(i),">>"+str(j),"^"+str(mask),"\tstring:",decrypted
+
+print "End of cycle,",possibles,"possible algorithms."

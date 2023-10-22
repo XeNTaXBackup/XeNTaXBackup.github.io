@@ -1,0 +1,112 @@
+## Post #1
+- Username: YUKI
+- Rank: n00b
+- Number of posts: 15
+- Joined date: Thu Nov 27, 2014 7:17 am
+- Post datetime: 2019-05-03T19:45:09+00:00
+- Post Title: Tales of Zestiria Ninjaripper
+
+hello !!! I ask help to use ninjaripper on Tales Of Zestiria Steam Edition
+
+I am tryng to open the Zestiria.exe with Ninjaripper but I got the ripper folder with log text only.
+
+
+I removed d3dx.dll file and I did the steps of troubleshooting but no results. 
+
+What i did wrong ?
+
+0503/211830 [12E14] Ninja Ripper 1.7.1 x86
+0503/211830 [12E14] © black_ninja, 2017
+
+0503/211830 [12E14] LOG START
+
+0503/211830 [12E14] Executable: E:\Program Files (x86)\Steam\SteamApps\common\Tales of Zestiria\Tales of Zestiria.exe
+0503/211830 [12E14] Output directory: E:\Program Files (x86)\Steam\SteamApps\common\Tales of Zestiria\_NinjaRipper\2019.05.03_21.18.30_Tales of Zestiria.exe_24972\
+0503/211830 [12E14] Win ver: 6.2 x64 
+
+0503/211830 [12E14] Inject mode: "d3d9.dll wrapper"
+0503/211830 [12E14] Texture downscale max width : 4096
+0503/211830 [12E14] Texture downscale max height: 4096
+0503/211830 [12E14] Texture downscale value: 2
+0503/211830 [12E14] LdrLoadDll hooked. Target: 0x76FEB120
+0503/211830 [12E14] LdrUnloadDll hooked. Target: 0x76FEB800
+0503/211830 [12E14] CreateProcessA hooked. Target: 0x74B13CF0
+0503/211830 [12E14] CreateProcessW hooked. Target: 0x74AF8830
+0503/211830 [12E14] CreateProcessAsUserW hooked. Target: 0x76F2E930
+0503/211830 [12E14] CreateProcessWithLogonW hooked. Target: 0x76F5BC20
+0503/211830 [12E14] CreateProcessWithTokenW hooked. Target: 0x76F5BC60
+0503/211830 [12E14] SetTokenInformation hooked. Target: 0x76F392E0
+0503/211830 [12E14] CreateProcessW("E:\Program Files (x86)\Steam\steam.exe") return: 1
+0503/211830 [12E14] Injecting to child process. Status: OK
+0503/211830 [12E14] Loaded Modules List
+0503/211830 [12E14] --------------------------------
+0503/211830 [12E14] BaseAddr    Size         Module
+0503/211830 [12E14] --------------------------------
+0503/211830 [12E14] 0x00400000 (0x02FF7000)  E:\Program Files (x86)\Steam\SteamApps\common\Tales of Zestiria\Tales of Zestiria.exe
+0503/211830 [12E14] 0x76FA0000 (0x0019C000)  C:\WINDOWS\SYSTEM32\ntdll.dll
+0503/211830 [12E14] 0x74AE0000 (0x000E0000)  C:\WINDOWS\System32\KERNEL32.DLL
+0503/211830 [12E14] 0x72110000 (0x00010000)  C:\Program Files\AVAST Software\Avast\x86\aswhook.dll
+0503/211830 [12E14] 0x74FA0000 (0x001F9000)  C:\WINDOWS\System32\KERNELBASE.dll
+0503/211830 [12E14] 0x74170000 (0x0009C000)  C:\WINDOWS\SYSTEM32\apphelp.dll
+0503/211830 [12E14] 0x76C80000 (0x00199000)  C:\WINDOWS\System32\user32.dll
+0503/211830 [12E14] 0x74690000 (0x00017000)  C:\WINDOWS\System32\win32u.dll
+0503/211830 [12E14] 0x76EE0000 (0x00023000)  C:\WINDOWS\System32\GDI32.dll
+0503/211830 [12E14] 0x76300000 (0x00167000)  C:\WINDOWS\System32\gdi32full.dll
+0503/211830 [12E14] 0x74960000 (0x00080000)  C:\WINDOWS\System32\msvcp_win.dll
+0503/211830 [12E14] 0x76B50000 (0x00123000)  C:\WINDOWS\System32\ucrtbase.dll
+0503/211830 [12E14] 0x75290000 (0x0054D000)  C:\WINDOWS\System32\shell32.dll
+0503/211830 [12E14] 0x76240000 (0x000C0000)  C:\WINDOWS\System32\msvcrt.dll
+0503/211830 [12E14] 0x76100000 (0x0003B000)  C:\WINDOWS\System32\cfgmgr32.dll
+0503/211830 [12E14] 0x751A0000 (0x00089000)  C:\WINDOWS\System32\shcore.dll
+0503/211830 [12E14] 0x76640000 (0x000BF000)  C:\WINDOWS\System32\RPCRT4.dll
+0503/211830 [12E14] 0x74610000 (0x00020000)  C:\WINDOWS\System32\SspiCli.dll
+0503/211830 [12E14] 0x74600000 (0x0000A000)  C:\WINDOWS\System32\CRYPTBASE.dll
+0503/211830 [12E14] 0x76E70000 (0x00062000)  C:\WINDOWS\System32\bcryptPrimitives.dll
+0503/211830 [12E14] 0x76080000 (0x00079000)  C:\WINDOWS\System32\sechost.dll
+0503/211830 [12E14] 0x75DE0000 (0x00278000)  C:\WINDOWS\System32\combase.dll
+0503/211830 [12E14] 0x757E0000 (0x005FB000)  C:\WINDOWS\System32\windows.storage.dll
+0503/211830 [12E14] 0x76F10000 (0x0007E000)  C:\WINDOWS\System32\advapi32.dll
+0503/211830 [12E14] 0x76E20000 (0x0001C000)  C:\WINDOWS\System32\profapi.dll
+0503/211830 [12E14] 0x75230000 (0x00054000)  C:\WINDOWS\System32\powrprof.dll
+0503/211830 [12E14] 0x74BD0000 (0x00044000)  C:\WINDOWS\System32\shlwapi.dll
+0503/211830 [12E14] 0x74C70000 (0x0000F000)  C:\WINDOWS\System32\kernel.appcore.dll
+0503/211830 [12E14] 0x74E00000 (0x00012000)  C:\WINDOWS\System32\cryptsp.dll
+0503/211830 [12E14] 0x74E20000 (0x0005F000)  C:\WINDOWS\System32\ws2_32.dll
+0503/211830 [12E14] 0x76140000 (0x000FA000)  C:\WINDOWS\System32\comdlg32.dll
+0503/211830 [12E14] 0x74860000 (0x000FC000)  C:\WINDOWS\System32\ole32.dll
+0503/211830 [12E14] 0x63C40000 (0x0006A000)  E:\Program Files (x86)\Steam\SteamApps\common\Tales of Zestiria\bink2w32.dll
+0503/211830 [12E14] 0x6C740000 (0x000FF000)  E:\Program Files (x86)\Steam\SteamApps\common\Tales of Zestiria\sdl2.dll
+0503/211830 [12E14] 0x76E40000 (0x00025000)  C:\WINDOWS\System32\IMM32.DLL
+0503/211830 [12E14] 0x74F00000 (0x0009B000)  C:\WINDOWS\System32\OLEAUT32.dll
+0503/211830 [12E14] 0x739D0000 (0x00024000)  C:\WINDOWS\SYSTEM32\winmm.dll
+0503/211830 [12E14] 0x63C10000 (0x00025000)  E:\Program Files (x86)\Steam\SteamApps\common\Tales of Zestiria\d3d9.dll
+0503/211830 [12E14] 0x613D0000 (0x001FF000)  C:\WINDOWS\SYSTEM32\d3dx9_43.dll
+0503/211830 [12E14] 0x001C0000 (0x00016000)  C:\WINDOWS\SYSTEM32\xinput1_3.dll
+0503/211830 [12E14] 0x76700000 (0x0044B000)  C:\WINDOWS\System32\SETUPAPI.dll
+0503/211830 [12E14] 0x74EE0000 (0x00019000)  C:\WINDOWS\System32\bcrypt.dll
+0503/211830 [12E14] 0x63B40000 (0x00069000)  C:\WINDOWS\SYSTEM32\msvcp100.dll
+0503/211830 [12E14] 0x61310000 (0x000BF000)  C:\WINDOWS\SYSTEM32\msvcr100.dll
+0503/211830 [12E14] 0x63B00000 (0x00031000)  E:\Program Files (x86)\Steam\SteamApps\common\Tales of Zestiria\steam_api.dll
+0503/211830 [12E14] 0x72520000 (0x0020F000)  C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.195_none_4d616d831b9c5e9f\COMCTL32.dll
+0503/211830 [12E14] 0x72EA0000 (0x00008000)  C:\WINDOWS\SYSTEM32\VERSION.dll
+0503/211830 [12E14] 0x72B70000 (0x00023000)  C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0503/211830 [12E14] 0x61240000 (0x000C4000)  C:\Users\Utente\Desktop\newninjaripper\x86\intruder.dll
+0503/211830 [12E14] 0x71EE0000 (0x0018F000)  C:\WINDOWS\system32\dbghelp.dll
+0503/211830 [12E14] 0x721C0000 (0x00024000)  C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0503/211830 [12E14] 0x72BD0000 (0x0007B000)  C:\WINDOWS\system32\uxtheme.dll
+0503/211830 [12E14] 0x71AD0000 (0x0017E000)  C:\WINDOWS\SYSTEM32\PROPSYS.dll
+0503/211830 [12E14] 0x765B0000 (0x00081000)  C:\WINDOWS\System32\clbcatq.dll
+0503/211830 [12E14] 0x633A0000 (0x0003D000)  C:\WINDOWS\SYSTEM32\edputil.dll
+0503/211830 [12E14] 0x51990000 (0x00087000)  C:\Windows\System32\Windows.StateRepositoryPS.dll
+0503/211830 [12E14] 0x70880000 (0x001BC000)  C:\WINDOWS\SYSTEM32\urlmon.dll
+0503/211830 [12E14] 0x064D0000 (0x0022D000)  C:\WINDOWS\SYSTEM32\iertutil.dll
+0503/211830 [12E14] 0x71970000 (0x0001B000)  C:\WINDOWS\SYSTEM32\CLDAPI.dll
+0503/211830 [12E14] 0x73AA0000 (0x00008000)  C:\WINDOWS\SYSTEM32\FLTLIB.DLL
+0503/211830 [12E14] 0x6E6A0000 (0x000DB000)  C:\Windows\System32\wintypes.dll
+0503/211830 [12E14] 0x63330000 (0x0006B000)  C:\Windows\System32\appresolver.dll
+0503/211830 [12E14] 0x5BE60000 (0x00046000)  C:\Windows\System32\Bcp47Langs.dll
+0503/211830 [12E14] 0x63A60000 (0x00021000)  C:\Windows\System32\SLC.dll
+0503/211830 [12E14] 0x73460000 (0x00023000)  C:\Windows\System32\USERENV.dll
+0503/211830 [12E14] 0x63260000 (0x0001C000)  C:\Windows\System32\sppc.dll
+0503/211830 [12E14] 0x74850000 (0x00006000)  C:\WINDOWS\System32\psapi.dll
+0503/211830 [12E14] LOG END

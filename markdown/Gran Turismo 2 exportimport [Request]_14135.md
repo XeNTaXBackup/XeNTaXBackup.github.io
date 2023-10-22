@@ -1,0 +1,125 @@
+## Post #1
+- Username: Ferrari formula 1
+- Rank: advanced
+- Number of posts: 72
+- Joined date: Mon Aug 11, 2014 6:42 pm
+- Post datetime: 2016-03-24T14:01:46+00:00
+- Post Title: Gran Turismo 2 export/import [Request]
+
+Hello there!  
+
+Apperantly,there's now a tool which allows you to repack GT2.VOL file. It means that you can swap cars,tracks etc.
+(Only extractor was available before it)
+
+Quite a while ago I did my own "research" on GT2 models but couldn't go very far.
+Every car has 3(at least) lods and 2 versions:
+
+.CDO - 3D File,Day version of the car
+.CDP - Texture File,Day version of the car
+.CNO - 3D File,Night version of the car
+.CNP - Texture File,Night version of the car
+
+At the moment,the only way to get the mesh(without any dummies,structure,UV's etc.) is to use Zanoza Modeler v1.07b with built-in importer(it's unable to pack everything back together) and getting the textures is even worse.(well,It's almost impossible to get it in 100% original state,I'm not even speaking about changing stuff)
+(I will post Zmodeler plugin if needed)
+It could be fun to play with such an old,amazing game and an interesting experiment to see the behaviour of the new lowpoly models running in old,PS1 game.
+
+So,we need some basic tools to unpack and repack models and textures and that's it...
+I'll help as much as I can  
+
+(I don't think that thi is an impossible challenge,and such an old game should have an easier file structure)
+Speaking of,these are files of Ford RS200 I took for example
+
+[http://www.mediafire.com/download/b9y27 ... _RS200.rar](http://www.mediafire.com/download/b9y27v2o7b1qtr3/GT2_Ford_RS200.rar)
+
+And some useful info explained
+[http://z3.invisionfree.com/Our_ReVolt_P ... topic=1835](http://z3.invisionfree.com/Our_ReVolt_Pub/index.php?showtopic=1835)
+## Post #2
+- Username: shakotay2
+- Rank: MEGAVETERAN
+- Number of posts: 4299
+- Joined date: Fri Apr 20, 2012 4:24 pm
+- Post datetime: 2016-03-25T05:34:00+00:00
+- Post Title: Gran Turismo 2 export/import [Request]
+
+As you may have noticed (seems some people have not) times have changed in this forums.
+
+People like chrrox and zaramot for example with countless contributions
+are not that actice any more like they used to be in the past.
+Other experts seem to concentrate on RL (family, studying, whatever).
+
+So chances are low that anyone will dig into efe2n.cdo for example.
+
+I'm too busy to check out this Zanoza Modeler v1.07b which you spoke of.
+Does it create an obj file from the above mentioned cdo?
+
+If so then why don't you show the first 10 lines of the vertices and the first 10 lines of the face indices?
+
+This way you could increase chances that someone's interest is waken (though I can't promiss it  ).
+## Post #3
+- Username: Ferrari formula 1
+- Rank: advanced
+- Number of posts: 72
+- Joined date: Mon Aug 11, 2014 6:42 pm
+- Post datetime: 2016-03-25T09:12:38+00:00
+- Post Title: Gran Turismo 2 export/import [Request]
+
+> Reply from shakotay2
+>
+> As you may have noticed (seems some people have not) times have changed in this forums.
+
+People like chrrox and zaramot for example with countless contributions
+are not that actice any more like they used to be in the past.
+Other experts seem to concentrate on RL (family, studying, whatever).
+
+So chances are low that anyone will dig into efe2n.cdo for example.
+
+I'm too busy to check out this Zanoza Modeler v1.07b which you spoke of.
+Does it create an obj file from the above mentioned cdo?
+
+If so then why don't you show the first 10 lines of the vertices and the first 10 lines of the face indices?
+
+This way you could increase chances that someone's interest is waken (though I can't promiss it  ).
+
+Sure I have noticed that long ago...
+I just thought that small old files should be more easy to work with that modern models and textures  
+
+As for zanoza - Well,not really. It works only one way(extraction) and has no uv and structure data,just the model and It's able to convert it to 3ds.
+
+
+If I had any knowlege in hex and file structure,I would do this challenge by myself  
+(Oh,I am trying to...)
+## Post #4
+- Username: shakotay2
+- Rank: MEGAVETERAN
+- Number of posts: 4299
+- Joined date: Fri Apr 20, 2012 4:24 pm
+- Post datetime: 2016-03-25T09:36:49+00:00
+- Post Title: Gran Turismo 2 export/import [Request]
+
+> Reply from Ferrari formula 1
+>
+> As for zanoza - Well,not really. It works only one way(extraction) and has no uv and structure data,just the model and It's able to convert it to 3ds.well, then, could you upload that 3ds file, please? (or convert it to obj and then post an excerpt such as I asked for in my previous post?)
+## Post #5
+- Username: Ferrari formula 1
+- Rank: advanced
+- Number of posts: 72
+- Joined date: Mon Aug 11, 2014 6:42 pm
+- Post datetime: 2016-03-25T10:57:26+00:00
+- Post Title: Gran Turismo 2 export/import [Request]
+
+Here it is...kinda...
+I don't think this will work the way you wanted,because this was generated by double export procedure...(Zmodeler,Cinema4D)
+[http://www.mediafire.com/download/c9d9b ... 1b3/rt.obj](http://www.mediafire.com/download/c9d9b9zfi6361b3/rt.obj)
+## Post #6
+- Username: shakotay2
+- Rank: MEGAVETERAN
+- Number of posts: 4299
+- Joined date: Fri Apr 20, 2012 4:24 pm
+- Post datetime: 2016-03-25T12:03:22+00:00
+- Post Title: Gran Turismo 2 export/import [Request]
+
+yep, you're right - the point clouds are ugly:
+
+
+
+efe2n.jpg (37.14 KiB) Viewed 114 times

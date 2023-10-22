@@ -1,0 +1,103 @@
+## Post #1
+- Username: bukong
+- Rank: ultra-n00b
+- Number of posts: 1
+- Joined date: Mon Apr 11, 2016 2:32 pm
+- Post datetime: 2016-04-11T06:42:22+00:00
+- Post Title: Is it possible to get Animation&3DModel of this game?
+
+I'd like to get the animation of this game and 3d models and play with it but i'm not sure what are the tools to use.
+The game is called Touch [http://anonym.to/?http://touch.3claws.com/](http://anonym.to/?http://touch.3claws.com/)
+## Post #2
+- Username: TaylorMouse
+- Rank: ultra-veteran
+- Number of posts: 348
+- Joined date: Mon Sep 26, 2011 7:51 pm
+- Post datetime: 2016-04-12T19:32:50+00:00
+- Post Title: Is it possible to get Animation&3DModel of this game?
+
+So what you usually do is go through the folders and find files you recognize.
+
+The file in the "Incoming" folder is a json file which you can open in notepad, it actually holds the names of the original files 
+It is not a valid json file but it is a mapping file
+
+it contains:
+
+```
+#WebPathName	LocalPathName	MD5
+microclient/StandaloneWindows64/246ee6d1c8c313dd91f398f597310a04	defenceV1_2.dll	911a4732db171a8635db6009c2e579e8
+microclient/StandaloneWindows64/9904c5ed344e5e49d460c7b2e33d0597	Touch.exe	cea344dcf4a501964f11558a8ae3da7e
+microclient/StandaloneWindows64/3fac82cac5a7cde35341d01cc0861e95	TouchClient.exe	74a8ecfe4babb3a3263ce98d4aa4cebf
+microclient/StandaloneWindows64/7ab28007b534fd592f42345dab6c9e67	TouchLauncher.exe	38c3e17c72309a8c8c03433ff9a750d7
+microclient/StandaloneWindows64/9bc2f3df79c2ce270fb3ad6a70f9c123	launcher_res\background.bmp	0cac39c3e6cdc2f79dafc0aa071b927f
+microclient/StandaloneWindows64/2098e63012a882f273455cd770de9c5e	launcher_res\button1.png	55182c8b3ee7bd752c6f745386347c53
+microclient/StandaloneWindows64/3de3a0bebaf5064696f085b57734a9ff	launcher_res\button1_hover.png	b5be86ebb2f397c963d0cdfc2ab7f9f4
+microclient/StandaloneWindows64/90b3e2ead166a607dd1958a932c8651e	launcher_res\button1_mask.bmp	1eaf06a7d57715e7837f051b7a3ce026
+microclient/StandaloneWindows64/ea4de7212019b4ac6f1cb73b5c885530	launcher_res\button1_press.png	fd9925da648ae1e0935e862dc3e2e5e0
+microclient/StandaloneWindows64/037e6fbd952db4b6dc84a7c162591718	launcher_res\button2.png	12988962e2d81b709b063abcbb95e9db
+microclient/StandaloneWindows64/b9ebf8e8399aecb6082084352ceeaf1b	launcher_res\button2_hover.png	12db499bbd8249ba49307e024aa17cdd
+microclient/StandaloneWindows64/7fe6b0b599b3f0d1966c1528a9d7a9d8	launcher_res\button2_mask.bmp	88a426aa37877487c23923529c5903f7
+microclient/StandaloneWindows64/9ef70f14a91fd493f029b66a538ce106	launcher_res\button2_press.png	615241e847db0ccf2e3987af0188ec8f
+microclient/StandaloneWindows64/42c66223ddfc5abbdb495ab7d48adfd6	launcher_res\button3.png	5d83dc87860ea23155c1828d7e6e532a
+microclient/StandaloneWindows64/606c48b3228fe5aed793c09e037a2cd2	launcher_res\button3_hover.png	b810ca22c0d581c42bce3b5946839ac6
+microclient/StandaloneWindows64/649112742a3576878ce5d30693a55a4c	launcher_res\button3_mask.bmp	cdca0d9c7400fdd201fcb926e856709c
+microclient/StandaloneWindows64/90599cfce2406ae59fd9cfa41a964dc5	launcher_res\button3_press.png	cf6a47c153cfcd3936cc2d3af8df8088
+microclient/StandaloneWindows64/0aef5828e72a2c20f8b5094d101300e3	launcher_res\button4.png	4c1d7e541320a50a7b4613cf3a98c037
+microclient/StandaloneWindows64/bcf32e6b14229f6722c497ec5c910688	launcher_res\button4_hover.png	cd3bbc0b64007a3ef9f4302e5be121e2
+microclient/StandaloneWindows64/82f54cb61d6e4d077a7a4b624b9e8287	launcher_res\button4_mask.bmp	b68c74f1409d126a9ffd50f3cd04e635
+microclient/StandaloneWindows64/19edca1c7e0ecc644eb5832656e248cd	launcher_res\button4_press.png	feb4889f0c9b7fde73f45b7969c5a734
+microclient/StandaloneWindows64/faefaba06406ae6b7e0d6b19c51053a5	launcher_res\buttonFix.png	6d9d2a5c9c816dcfa2b7b1e8c7cdad23
+microclient/StandaloneWindows64/3d59db285d8a5e30017b274a7241d396	launcher_res\buttonFix_hover.png	b936743d080adfbd06be56bb1c0f46fb
+microclient/StandaloneWindows64/bbfb56db7fb0e59f7e72cd41cf59108e	launcher_res\buttonFix_mask.bmp	48b69942d54b051d788e2bb653e8ec1b
+microclient/StandaloneWindows64/2ca3d96a406d1a1f7fca345ef420f34c	launcher_res\buttonFix_pressd.png	2d6623e7f82d379c938e42cc3ed50067
+microclient/StandaloneWindows64/27660e0e1e39447eadb2f154dd691f44	launcher_res\buttonX.png	99988d6e7fbb729168ed928811a3ea1b
+microclient/StandaloneWindows64/a46cb8e9c7e6b50042fceb5cbeed71c0	launcher_res\buttonX_hover.png	21aee20c5aa25ba945d32b5eebf317f6
+microclient/StandaloneWindows64/5130b874de5e5714099bbe5cb05b9f96	launcher_res\buttonX_mask.bmp	74c39589a5ecde94aa0a4e52b83dd59a
+microclient/StandaloneWindows64/3f65085f51b68a258d71a229c3168a77	launcher_res\buttonX_press.png	4f3ad91e1e051c6ab840dbd5fed3a9c0
+microclient/StandaloneWindows64/c077ac8f56dabd80181881f726d4a076	launcher_res\updater_background.bmp	4fe172bb9a81678226097c420e4740e9
+microclient/StandaloneWindows64/53e7e0bf9aa8edfcac9433b035ce84c0	launcher_res\updater_progress_active.bmp	4942250b1e3601ac24cbdf3612ca4e64
+microclient/StandaloneWindows64/da22712468e96915e189d7a5ca4cb13d	launcher_res\updater_progress_back.bmp	23ab94f580eb9821b36a882ae9afe741
+microclient/StandaloneWindows64/4258b782bcda9fd0fb8fba6438b81f5e	TouchClient_Data\mainData	558fcf59eaf51a87fa474e293caaf316
+microclient/StandaloneWindows64/1c7cbfd2066760afbf8e8990455670fa	TouchClient_Data\resources.assets	eeb68d139292498b93bc31dfd8a485c8
+microclient/StandaloneWindows64/381593be5e46a534f0a41b9db7d51f2c	TouchClient_Data\sharedassets0.assets	bdf914c15e9392d635ca1b2aacc9a32b
+microclient/StandaloneWindows64/18683ae94dc4126e7ad698d2bbc6a12d	TouchClient_Data\Managed\Assembly-CSharp-firstpass.dll	86e71eccb9e2b1757f836ddbc9a7acb2
+microclient/StandaloneWindows64/a00f4c2d6665a5a8aeed07b6ece62359	TouchClient_Data\Managed\Assembly-CSharp.dll	bf6ee259320f5063595ad1d1fc34f225
+microclient/StandaloneWindows64/a667997798aad567d844be2ab7fce643	TouchClient_Data\Managed\Assembly-UnityScript-firstpass.dll	c29a303e1cc805f008d86e9ee68dc789
+microclient/StandaloneWindows64/6cee9fa8522c02de73a5c97bce23a04f	TouchClient_Data\Managed\Boo.Lang.dll	2504921c4c84a31ac271a744346bf394
+microclient/StandaloneWindows64/833bea0fa3d21555be0408824f58d8e0	TouchClient_Data\Managed\ClassLibrary1.dll	319d8da28c182983e952ffd31d25583e
+microclient/StandaloneWindows64/ad70e4dbc33832dcff3fc069aa9012db	TouchClient_Data\Managed\ICSharpCode.SharpZipLib.dll	c8164876b6f66616d68387443621510c
+microclient/StandaloneWindows64/46edce42b52556c5bdd86d0f1357d9e1	TouchClient_Data\Managed\Mono.Security.dll	77bc01fcebcad33ed42d752ca06d3a36
+microclient/StandaloneWindows64/5fcf4da30f2317a999f4b425644e8a26	TouchClient_Data\Managed\mscorlib.dll	c9a66764ba6ac993269d2bd10d0ae441
+microclient/StandaloneWindows64/96c134c50bfd44366aa30f36ab635287	TouchClient_Data\Managed\System.Core.dll	3d9f8fb95f3f319316ec490bf95ea8e3
+microclient/StandaloneWindows64/289f3947876b2886f858c374a119bc4e	TouchClient_Data\Managed\System.dll	e3457123f8b9914fa981154a01bfdb15
+microclient/StandaloneWindows64/7e8fc499b56355feb057cd604b966dc3	TouchClient_Data\Managed\System.Xml.dll	0107a449a82b62a202e1ec5170a5e0c2
+microclient/StandaloneWindows64/6a51b51347805785b2e3b7bd82267297	TouchClient_Data\Managed\UnityEngine.dll	274d2838f0e468ef987385f315a335d0
+microclient/StandaloneWindows64/01848a0d819d8732b7c629edff776cbb	TouchClient_Data\Mono\mono.dll	cbfa6ab5fd13d66da0bf0dec9f30ceaf
+microclient/StandaloneWindows64/878e61ef716a7cece5747f8cddbd9f82	TouchClient_Data\Mono\etc\mono\browscap.ini	378be809df7d15aac75a175693e25fbb
+microclient/StandaloneWindows64/41c2f7b47f72f53b3cd29b9c29d72f55	TouchClient_Data\Mono\etc\mono\config	f95c345c1c53b820487f6b72e62d5485
+microclient/StandaloneWindows64/e4876fc9b0168d61b4ffef3c0b2da67d	TouchClient_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx	66fed2411c14a0fc8ce4c593ef601bfb
+microclient/StandaloneWindows64/9f59a53648dbd682a04cdefd3850381b	TouchClient_Data\Mono\etc\mono\1.0\machine.config	8dccd9a98d2575162aa366224a983c08
+microclient/StandaloneWindows64/884fc385856b1867f9ef4f526c1b139d	TouchClient_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx	3b3452c399f27a24ea5a589c7bfe750b
+microclient/StandaloneWindows64/ecd8c83c17c9b5b5c7d8fe4ba1ed7ec1	TouchClient_Data\Mono\etc\mono\2.0\machine.config	603173d56ace47a2d90b87ffbc3bfa91
+microclient/StandaloneWindows64/867cffe5da9b1e78a2e28797d8e38983	TouchClient_Data\Mono\etc\mono\2.0\settings.map	55dac562878b7dd98ee8a7ad203a26e6
+microclient/StandaloneWindows64/1c1b86c070bd3924e2e1010f50d12430	TouchClient_Data\Mono\etc\mono\2.0\web.config	2b6303c4f12762b71051db6e947f90a4
+microclient/StandaloneWindows64/dc0bba39b15add927a6c67ccdca5a7f9	TouchClient_Data\Mono\etc\mono\2.0\Browsers\Compat.browser	0d831c1264b5b32a39fa347de368fe48
+microclient/StandaloneWindows64/d35e0da27d2cb613dc1a119841077679	TouchClient_Data\Mono\etc\mono\mconfig\config.xml	f34b330f20dce1bdcce9058fca287099
+microclient/StandaloneWindows64/b25c4f5f3edb245a765583058998df17	TouchClient_Data\Plugins\YYLive.dll	3fd5a7c400fad628f1c8fed54df19434
+microclient/StandaloneWindows64/2d2af16a8793bd741f64a82bf9fd7532	TouchClient_Data\Resources\unity default resources	cc0f890d21b792af8180501890fc05f8
+
+```
+
+
+by the names of these files you notice it is a Unity Web player hosted in a fat client ( hence de decoding of the files)
+
+also if you open the very first file in the list ( without even opening the json file) with a hex editor, you'll notice that it says
+
+```
+
+```
+
+
+maybe you can start there?
+
+T.
