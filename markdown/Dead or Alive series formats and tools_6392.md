@@ -13401,6 +13401,7 @@ That video's a bit out-dated but still fairly useful, though it requires some di
 
 patch_02_title_update.lnk contents:
 
+{% raw %}
 ```
 1T0@JA7L8191[A9{]8760122B
 1T0@JI7L8191[8{]7KDM9840101D6
@@ -13459,6 +13460,7 @@ HEKH_H1H1@274141B[]095EI1NK267{C1KJ0
 HEKH_H1H@2207A514B[]4H0FI1N1E7{DK2E2
 HGK2_G1G1@22I413B[]40EI1N10C46{B1JI0
 ```
+{% endraw %}
 
 
 Once I figure out who's who, I can start messing with frame data and all that nonsense and then work on reinserting it.
