@@ -1595,7 +1595,9 @@ rollout iu_king_of_route_66_mdl "MDL" (
 					)
 				
 				fclose f
-				) else (format "Failed to open file {%}\n" file)
+				{% raw %}
+                ) else (format "Failed to open file {%}\n" file)
+                {% endraw %}
 			)
 		)
 	
