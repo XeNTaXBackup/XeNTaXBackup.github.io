@@ -29,7 +29,7 @@ so great jobs，another awsome tool. thank u so much,
 just I think skeleton file's extension is "edgeskl" , not "md6skl", change extesion the tool work great.
 
 ptw "Dishonored Death Of The Outsider" work fine to.
-[6B@4`2FCN9A{U6%49S`{{7U.jpg](https://xentaxbackup.github.io/file/14050_6B@4`2FCN9A{U6%49S`{{7U.jpg)
+[6B@4`2FCN9A{U6%49S`{% raw %}{{{% endraw %}7U.jpg](https://xentaxbackup.github.io/file/14050_6B@4`2FCN9A{U6%49S`{% raw %}{{{% endraw %}7U.jpg)
 ## Post #3
 - Username: daemon1
 - Rank: MEGAVETERAN
