@@ -752,6 +752,7 @@ audio_play_conversation(VOICE_INTRO_PHONECALL, INCOMING_CALL)
 
 ^This is the phone call you receive from Shaundi at the start of the Brotherhood mission "The Enemy of my Enemy" (bh09.lua.) The VOICE_INTRO_PHONECALL global constant is assigned the following values:
 
+{% raw %}
 ```
 {{"BR09_INTRO_L1", CELLPHONE_CHARACTER, 0},
 {"PLAYER_BR09_INTRO_L2", LOCAL_PLAYER, 0},
@@ -765,7 +766,7 @@ audio_play_conversation(VOICE_INTRO_PHONECALL, INCOMING_CALL)
 {"BR09_INTRO_L10", CELLPHONE_CHARACTER, 0},
 {"PLAYER_BR09_INTRO_L11", LOCAL_PLAYER, .25}}
 ```
-
+{% endraw %}
 
 The conversation is broken up this way so that any of the six chosen voices for the main character can be inserted into the conversation.
 
