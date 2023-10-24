@@ -345,7 +345,7 @@ And at least we have textures converter already.
 gave it a go in 3dsmax... maxscript attached below with basic mesh import functionality
 
 
-
+{% raw %}
 ```
 	3ds max's MaxScript for Importing Startopia for pc
 
@@ -1128,6 +1128,7 @@ rollout ui_ssm "SSM" (
 createDialog ui_ssm
 
 ```
+{% endraw %}
 
 [startopia_ssm_maxscript__by_mariokart64n.zip](https://xentaxbackup.github.io/file/23105_startopia_ssm_maxscript__by_mariokart64n.zip)
 ## Post #16
