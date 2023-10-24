@@ -233,6 +233,7 @@ As well as the program.
 
 This is the 010 Editor script to convert the atlas to a plist file:
 
+{% raw %}
 ```
 //--- 010 Editor v5.0 Script File
 //
@@ -288,6 +289,6 @@ Printf("    </dict>\n");
 Printf("</plist>\n");
 
 ```
-
+{% endraw %}
 
 I'm not sure where I put the code to make the animation, so I don't have that. Anyway, there are probably better ways to do what I did. Maybe something like this could be useful? [http://renderhjs.net/shoebox/](http://renderhjs.net/shoebox/)
